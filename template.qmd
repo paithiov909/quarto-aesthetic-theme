@@ -1,0 +1,223 @@
+---
+title: "Aesthetic Theme"
+subtitle: "for Quarto revealjs"
+author: "Akiru Kato"
+format: aesthetic-revealjs
+---
+
+# AESTHETIC
+
+:::{.aesthetic-windows-95-container-indent}
+[AESTHETIC](https://torch2424.github.io/aesthetic-css/) is a vaporwave CSS framework written by Aaron Turner and Daniel Gomez.
+
+[This is a Quarto reveal.js theme that is powered by AESTHETIC.]{.aesthetic-pepsi-cola-color}
+:::
+
+## Header 2
+
+### Header 3
+
+:::{.aesthetic-windows-95-container-indent}
+Normal text inside a `.aethetic-windows-95-container-indent`
+
+**Bold text**
+
+*italics*
+
+~~strikethrough~~
+
+[links](https://www.xaringan.gallery/).
+:::
+
+## Ordered list
+
+1.  First item
+2.  Second item
+3.  Third item
+    1.  Indented item
+    2.  Indented item
+4.  Fourth item
+
+## Unordered list
+
+-   First item
+-   Second item
+-   Third item
+-   Fourth item
+
+## Table
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| 1        | 2        | 3        |
+| 4        | 5        | 6        |
+
+## Block quotes
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+:::{.aesthetic-effect-crt}
+> This is a block quotes with CRT effect.
+:::
+
+## Equations
+
+inline math: $E = mc^{2}$
+
+display math:
+
+$$E = mc^{2}$$
+
+## Code expressions
+
+Code chunks and output
+
+```{r}
+#| echo: true
+lm(mpg ~ disp, data = mtcars)
+```
+
+## ggplot2
+
+```{r scatter}
+#| echo: true
+#| warning: false
+#| output-location: slide
+library(ggplot2)
+
+colors <- c("#76c442", "#f2c409", "#ce372b")
+
+ggplot(modeldata::penguins) +
+  aes(bill_length_mm, bill_depth_mm,
+      color = species) +
+  geom_point() +
+  theme_minimal() +
+  scale_color_manual(values = colors)
+```
+
+## Tabsets
+
+:::{.panel-tabset}
+
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+:::
+
+## Raw contents
+
+### Text glitch
+
+```{=html}
+<div>
+  <h4 class="aesthetic-25-transparent-color aesthetic-effect-text-glitch" data-glitch="A E S T H E T I C">A E S T H E T I C</h4>
+</div>
+```
+
+### Loaders
+
+```{=html}
+<div class="aesthetic-windows-95-modal">
+
+  <!-- Title Bar -->
+  <div class="aesthetic-windows-95-modal-title-bar">
+
+    <div class="aesthetic-windows-95-modal-title-bar-text">
+      AESTHETIC
+    </div>
+
+    <div class="aesthetic-windows-95-modal-title-bar-controls">
+      <div class="aesthetic-windows-95-button-title-bar">
+        <button>
+          X
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Content -->
+  <!-- Could be a tabbed container, or a set of dropdowns, etc... -->
+  <div class="aesthetic-windows-95-modal-content">
+    <h4>Windows 95 Boot Loader</h4>
+    <div class="aesthetic-windows-95-boot-loader">
+      <div></div>
+    </div>
+
+    <h4>Windows 95 Loader</h4>
+    <div class="aesthetic-windows-95-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <h4>Windows XP Loader</h4>
+    <div class="aesthetic-windows-xp-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+```
+
+## Fonts
+
+:::{.aesthetic-windows-95-container-indent}
+:::{.aesthetic-font-modifier-outline-black}
+Black outline text
+:::
+
+:::{.aesthetic-font-modifier-outline-pink}
+Pink outline text
+:::
+
+:::{.aesthetic-font-modifier-outline-purple}
+Purple outline text
+:::
+:::
+
+## Colors
+
+:::{.aesthetic-white-bg-color}
+:::{.aesthetic-pepsi-red-color}
+Pepsi red color text inside white background
+:::
+:::
+
+:::{.aesthetic-arizona-pink-bg-color}
+Arizona pink
+:::
+
+:::{.aesthetic-arizona-lime-bg-color}
+Arizona lime
+:::
+
+:::{.aesthetic-arizona-green-bg-color}
+Arizona green
+:::
+
+:::{.aesthetic-arizona-blue-bg-color}
+Arizona blue
+:::
+
+## 日本語のテキスト
+
+### 見出し3
+
+:::{.aesthetic-windows-95-container-indent}
+あのイーハトーヴォの透きとおった風
+
+**あのイーハトーヴォの透きとおった風
+**
+
+*あのイーハトーヴォの透きとおった風*
+
+~~あのイーハトーヴォの透きとおった風~~
+
+:::

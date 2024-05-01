@@ -1,0 +1,10 @@
+title: Aesthetic Theme
+author: Akiru Kato
+version: 1.0.0
+contributes:
+  formats:
+    revealjs:
+      theme: [default, aesthetic.scss]
+      transition: fade
+      slide-number: "c/t"
+      code-copy: false
