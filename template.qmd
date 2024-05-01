@@ -10,7 +10,7 @@ format: aesthetic-revealjs
 :::{.aesthetic-windows-95-container-indent}
 [AESTHETIC](https://torch2424.github.io/aesthetic-css/) is a vaporwave CSS framework written by Aaron Turner and Daniel Gomez.
 
-[This is a Quarto reveal.js theme that is powered by AESTHETIC.]{.aesthetic-pepsi-cola-color}
+[This is a Quarto reveal.js theme that is based on AESTHETIC.]{.aesthetic-pepsi-cola-color}
 :::
 
 ## Header 2
