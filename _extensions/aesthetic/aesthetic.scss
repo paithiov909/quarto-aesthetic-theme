@@ -83,6 +83,10 @@ $code-block-bg: #fbf1c7;
     .sourceCode {
       padding: 5px;
       background-color: #fbf1c7;
+      overflow: hidden;
+    }
+    .cell-code {
+      overflow: auto;
     }
     .cell-output {
       border-top: 1px solid #000;
@@ -94,7 +98,10 @@ $code-block-bg: #fbf1c7;
   }
 }
 
-/** Aesthetic.css */
+/**
+ * Aesthetic.css written by Aaron Turner and Daniel Gomez
+ * that sourced from https://github.com/torch2424/aesthetic-css/blob/master/aesthetic.css
+ */
 .aesthetic-bg-gradient {
   background-repeat: no-repeat;
   background-attachment: fixed;
